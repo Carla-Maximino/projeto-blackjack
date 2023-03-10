@@ -1,3 +1,5 @@
+
+// <script defer type="application/javascript" src="desafio.js"></script>
 /**
  * EXEMPLO DE UTILIZAÇÃO DA 'comprarCarta'
  * 
@@ -10,3 +12,33 @@
  * 
  * 
  */
+
+    console.log(`"Boas vindas ao jogo de BlackJack!".`)
+   
+   if(confirm("Quer iniciar uma nova rodada?") === true){
+      
+      let usuarioCarta1 = comprarCarta()
+      let usuarioCarta2 = comprarCarta()
+      let computadorCarta1 = comprarCarta()
+      let computadorCarta2 = comprarCarta()
+      let somaCartaUsuario = usuarioCarta1.valor + usuarioCarta2.valor
+      let somaCartaComputador = computadorCarta1.valor + computadorCarta2.valor
+
+      console.log(`Carta Usuario - ${usuarioCarta1.texto} ${usuarioCarta2.texto} - ${somaCartaUsuario}`)
+      console.log(`Carta Computador - ${computadorCarta1.texto} ${computadorCarta2.texto} - ${somaCartaComputador}`)
+
+      if (somaCartaUsuario > somaCartaComputador){
+         console.log(`Usuario ganhou!!`)
+      }else if(somaCartaComputador > somaCartaUsuario){
+         console.log(`Computador ganhou!!`)
+      }else if(somaCartaUsuario === somaCartaComputador){
+         console.log(`Empate!`)
+      }
+      
+
+   } else {
+      console.log(`O jogo acabou!!`)
+   }
+
+
+
