@@ -1,3 +1,7 @@
+
+
+//----------------copia pra voltar pro lugar-----------------\\
+//<script defer type="application/javascript" src="nossoJogo.js"></script>
 /**
  * EXEMPLO DE UTILIZAÇÃO DA 'comprarCarta'
  * 
@@ -10,4 +14,5 @@
  * 
  * 
  */
+
 

@@ -1,5 +1,5 @@
 
-// <script defer type="application/javascript" src="desafio.js"></script>
+
 /**
  * EXEMPLO DE UTILIZAÇÃO DA 'comprarCarta'
  * 
