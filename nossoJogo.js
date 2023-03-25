@@ -27,7 +27,7 @@
       console.log(`Carta Usuario - ${usuarioCarta1.texto} ${usuarioCarta2.texto} - ${somaCartaUsuario}`)
       console.log(`Carta Computador - ${computadorCarta1.texto} ${computadorCarta2.texto} - ${somaCartaComputador}`)
 
-      if (somaCartaUsuario > somaCartaComputador){
+     if (somaCartaUsuario > somaCartaComputador){
          console.log(`Usuario ganhou!!`)
       }else if(somaCartaComputador > somaCartaUsuario){
          console.log(`Computador ganhou!!`)
